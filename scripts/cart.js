@@ -12,7 +12,29 @@
   function closeCart(){ var modal=document.getElementById("cartModal"); if(modal){ modal.style.display="none" } }
   function renderCartUI(){ var list=document.getElementById("cartItems"); if(!list) return; var items=getCart(); list.innerHTML=""; items.forEach(function(i){ var row=document.createElement("div"); row.className="cart-item"; var left=document.createElement("div"); left.textContent=i.name+" • ₹"+i.price; var right=document.createElement("div"); right.className="qty"; var minus=document.createElement("button"); minus.textContent="−"; minus.onclick=function(){ setQty(i.id, i.qty-1) }; var qty=document.createElement("div"); qty.textContent=i.qty; var plus=document.createElement("button"); plus.textContent="+"; plus.onclick=function(){ setQty(i.id, i.qty+1) }; var del=document.createElement("button"); del.textContent="Remove"; del.className="btn outline"; del.onclick=function(){ removeItem(i.id) }; right.appendChild(minus); right.appendChild(qty); right.appendChild(plus); right.appendChild(del); row.appendChild(left); row.appendChild(right); list.appendChild(row) }); var totalEl=document.getElementById("cartTotal"); if(totalEl){ totalEl.textContent="₹"+calcTotal() }
   }
-  function setupCartEvents(){ var sticky=document.getElementById("stickyOrderBtn"); if(sticky){ sticky.onclick=openCart } var close=document.getElementById("closeCart"); if(close){ close.onclick=closeCart } var navBtn=document.getElementById("navOrderBtn"); if(navBtn){ navBtn.onclick=openCart } var form=document.getElementById("checkoutForm"); if(form){ form.addEventListener("submit", function(e){ e.preventDefault(); checkoutWhatsApp() }) } renderCartBadge() }
+  function setupCartEvents(){ 
+    var sticky=document.getElementById("stickyOrderBtn"); if(sticky){ sticky.onclick=openCart } 
+    var close=document.getElementById("closeCart"); if(close){ close.onclick=closeCart } 
+    var navBtn=document.getElementById("navOrderBtn"); if(navBtn){ navBtn.onclick=openCart } 
+    var form=document.getElementById("checkoutForm"); if(form){ form.addEventListener("submit", function(e){ e.preventDefault(); checkoutWhatsApp() }) } 
+    var locateBtn=document.getElementById("locateBtn"); 
+    if(locateBtn){ 
+      locateBtn.onclick=function(){ 
+        if(!navigator.geolocation){ alert("Geolocation not supported"); return }
+        locateBtn.textContent="⌛"; 
+        navigator.geolocation.getCurrentPosition(function(pos){ 
+          var link="https://maps.google.com/?q="+pos.coords.latitude+","+pos.coords.longitude; 
+          var input=document.getElementById("custLocation"); 
+          if(input) input.value=link; 
+          locateBtn.textContent="📍"; 
+        }, function(){ 
+          alert("Unable to get location"); 
+          locateBtn.textContent="📍"; 
+        }) 
+      } 
+    }
+    renderCartBadge() 
+  }
   function checkoutWhatsApp(){ var items=getCart(); if(!items.length) return; var name=document.getElementById("custName")?document.getElementById("custName").value:""; var phone=document.getElementById("custPhone")?document.getElementById("custPhone").value:""; var location=document.getElementById("custLocation")?document.getElementById("custLocation").value:""; var lines=items.map(function(i){ return i.name+" x"+i.qty+" = ₹"+(i.price*i.qty) }); lines.push("Total: ₹"+calcTotal()); if(name) lines.push("Name: "+name); if(phone) lines.push("Customer Phone: "+phone); if(location) lines.push("Location: "+location); var msg=encodeURIComponent(lines.join("\n")); var url="https://wa.me/"+window.APP_CONFIG.phoneE164+"?text="+msg; window.open(url, "_blank"); clearCart(); closeCart() }
   window.Cart={ addItem:addItem, setupCartEvents:setupCartEvents, renderCartBadge:renderCartBadge }
   document.addEventListener("DOMContentLoaded", setupCartEvents)
