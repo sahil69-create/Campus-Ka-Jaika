@@ -1,56 +1,96 @@
 {
   "categories": [
     {
-      "id": "chai",
-      "name": "Chai",
+      "id": "combos",
+      "name": "Combos",
       "items": [
-        { "id": "plain-chai", "name": "Plain Chai", "price": 20, "desc": "Simple hot tea" },
-        { "id": "dhoodh-patti", "name": "Dhoodh Patti", "price": 30, "desc": "Strong milk tea" },
-        { "id": "masala-chai", "name": "Masala Chai", "price": 40, "desc": "Tea with Indian spices", "bestseller": true },
-        { "id": "adrak-ilachi", "name": "Adrak Ilaichi Chai", "price": 45, "desc": "Ginger & cardamom flavored tea" },
-        { "id": "campus-special-chai", "name": "Campus Special Chai", "price": 50, "desc": "House special tea", "bestseller": true }
-      ]
-    },
-    {
-      "id": "coffee",
-      "name": "Coffee",
-      "items": [
-        { "id": "hot-coffee", "name": "Hot Coffee", "price": 50, "desc": "Classic hot coffee" },
-        { "id": "cold-coffee", "name": "Classic Cold Coffee", "price": 89, "desc": "Chilled coffee" },
-        { "id": "icecream-coffee", "name": "Cold Coffee with Ice Cream", "price": 119, "desc": "Cold coffee topped with ice cream", "bestseller": true },
-        { "id": "campus-hot-coffee", "name": "Campus Special Hot Coffee", "price": 120, "desc": "House special hot coffee" },
-        { "id": "campus-cold-coffee", "name": "Campus Special Cold Coffee", "price": 125, "desc": "House special cold coffee" }
-      ]
-    },
-    {
-      "id": "snacks",
-      "name": "Snacks",
-      "items": [
-        { "id": "veg-sandwich", "name": "Veg Sandwich", "price": 79, "desc": "Fresh veg sandwich" },
-        { "id": "paneer-sandwich", "name": "Tandoori Paneer Sandwich", "price": 99, "desc": "Paneer with tandoori flavor" },
-        { "id": "veg-momos", "name": "Veg Momos", "price": 79, "desc": "Steamed veg momos with dip", "bestseller": true },
-        { "id": "classic-fries", "name": "Classic Fries", "price": 79, "desc": "Crispy potato fries" },
-        { "id": "masala-maggie", "name": "Masala Maggie", "price": 59, "desc": "Classic masala noodles" }
+        { "id": "combo-heart-pizza", "name": "Couple Combo 1", "price": 449, "desc": "Heart shape pizza + fries + 2 cold coffee", "img": "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "combo-pizza-burger", "name": "Couple Combo 2", "price": 349, "desc": "Pizza + burger + fries + 2 small cold drinks", "img": "https://images.unsplash.com/photo-1561758033-d8f19662cb23?auto=format&fit=crop&w=800&q=80", "bestseller": true }
       ]
     },
     {
       "id": "pizza",
       "name": "Pizza",
       "items": [
-        { "id": "corn-pizza", "name": "Corn Pizza", "price": 69, "desc": "Single veg corn pizza" },
-        { "id": "onion-pizza", "name": "Onion Pizza", "price": 69, "desc": "Single veg onion pizza" },
-        { "id": "paneer-pizza", "name": "Paneer Pizza", "price": 69, "desc": "Single veg paneer pizza", "bestseller": true },
-        { "id": "campus-special-pizza", "name": "Campus Special Pizza", "price": 170, "desc": "Loaded campus special pizza" }
+        { "id": "pizza-single-corn", "name": "Corn Pizza", "price": 69, "desc": "Golden corn toppings", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-single-onion", "name": "Onion Pizza", "price": 69, "desc": "Fresh onion toppings", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-single-capsicum", "name": "Capsicum Pizza", "price": 69, "desc": "Crunchy capsicum", "img": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-single-paneer", "name": "Paneer Pizza", "price": 69, "desc": "Soft paneer cubes", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-double-corn-cap", "name": "Corn + Capsicum", "price": 99, "desc": "Double veg delight", "img": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-double-onion-tom", "name": "Onion + Tomato", "price": 99, "desc": "Juicy and crunchy", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-margherita", "name": "Double Cheese Margherita", "price": 150, "desc": "Loaded with delicious cheese", "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "pizza-farm-house", "name": "Farm House Pizza", "price": 150, "desc": "Fresh veggies overload", "img": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-paneer-special", "name": "Paneer Special", "price": 150, "desc": "Fresh paneer, crispy onion, tomato", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pizza-campus-special", "name": "Campus Special Pizza", "price": 170, "desc": "Chef's special loaded pizza", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" }
+      ]
+    },
+    {
+      "id": "burger-fries",
+      "name": "Burgers & Fries",
+      "items": [
+        { "id": "burger-aloo", "name": "Aloo Burger", "price": 59, "desc": "Classic aloo tikki", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" },
+        { "id": "burger-veg", "name": "Veg Burger", "price": 69, "desc": "Crispy veg patty", "img": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80" },
+        { "id": "burger-cheese", "name": "Cheese Burger", "price": 89, "desc": "Melty cheese slice", "img": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "burger-paneer-loaded", "name": "Paneer Loaded Burger", "price": 89, "desc": "Stuffed with paneer", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" },
+        { "id": "burger-campus", "name": "Campus Special Burger", "price": 109, "desc": "The ultimate burger", "img": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=80" },
+        { "id": "fries-classic", "name": "Classic Fries", "price": 79, "desc": "Salted crispy fries", "img": "https://images.unsplash.com/photo-1573080496982-b94a8add7dd1?auto=format&fit=crop&w=800&q=80" },
+        { "id": "fries-peri-peri", "name": "Peri Peri Fries", "price": 89, "desc": "Spicy masala fries", "img": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "fries-cheese", "name": "Cheese Fries", "price": 89, "desc": "Loaded with cheese", "img": "https://images.unsplash.com/photo-1585109649139-3668018951a7?auto=format&fit=crop&w=800&q=80" }
+      ]
+    },
+    {
+      "id": "wraps-momos",
+      "name": "Wraps & Momos",
+      "items": [
+        { "id": "wrap-veg", "name": "Veg Wrap", "price": 99, "desc": "Healthy & tasty", "img": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80" },
+        { "id": "wrap-chilli-paneer", "name": "Chilli Paneer Wrap", "price": 120, "desc": "Spicy paneer filling", "img": "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?auto=format&fit=crop&w=800&q=80" },
+        { "id": "momo-veg", "name": "Veg Momos", "price": 79, "desc": "Steam/Fried", "img": "https://images.unsplash.com/photo-1496116218417-7a17478ee173?auto=format&fit=crop&w=800&q=80" },
+        { "id": "momo-tandoori", "name": "Tandoori Veg Momos", "price": 109, "desc": "Smoky tandoori flavor", "img": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "spring-rolls", "name": "Spring Rolls", "price": 89, "desc": "Crispy rolls", "img": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" }
+      ]
+    },
+    {
+      "id": "pasta-maggie",
+      "name": "Pasta & Maggie",
+      "items": [
+        { "id": "pasta-white", "name": "White Sauce Pasta", "price": 99, "desc": "Creamy cheesy pasta", "img": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "pasta-red", "name": "Red Sauce Pasta", "price": 99, "desc": "Tangy tomato pasta", "img": "https://images.unsplash.com/photo-1579684947550-22e945225d9a?auto=format&fit=crop&w=800&q=80" },
+        { "id": "pasta-mix", "name": "Mix Sauce Pasta", "price": 109, "desc": "Best of both worlds", "img": "https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?auto=format&fit=crop&w=800&q=80" },
+        { "id": "maggie-plain", "name": "Plain Maggie", "price": 49, "desc": "Classic comfort", "img": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=800&q=80" },
+        { "id": "maggie-masala", "name": "Masala Maggie", "price": 59, "desc": "Spicy twist", "img": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80" },
+        { "id": "maggie-cheese", "name": "Cheese Maggie", "price": 79, "desc": "Cheesy goodness", "img": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" }
+      ]
+    },
+    {
+      "id": "sandwich-garlic",
+      "name": "Sandwich & Garlic Bread",
+      "items": [
+        { "id": "sandwich-veg", "name": "Veg Sandwich", "price": 79, "desc": "Fresh veggies", "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80" },
+        { "id": "sandwich-grilled", "name": "Cheese Grilled Sandwich", "price": 119, "desc": "Grilled to perfection", "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "garlic-cheese", "name": "Cheese Garlic Bread", "price": 89, "desc": "Buttery & cheesy", "img": "https://images.unsplash.com/photo-1573140247632-f84660f67170?auto=format&fit=crop&w=800&q=80" },
+        { "id": "garlic-stuffed", "name": "Stuffed Garlic Bread", "price": 110, "desc": "Loaded with filling", "img": "https://images.unsplash.com/photo-1619531040576-f84207484a0d?auto=format&fit=crop&w=800&q=80" }
       ]
     },
     {
       "id": "drinks",
-      "name": "Drinks & Coolers",
+      "name": "Drinks & Shakes",
       "items": [
-        { "id": "shikanji", "name": "Shikanji", "price": 39, "desc": "Refreshing lemon drink" },
-        { "id": "mint-mojito", "name": "Mint Mojito", "price": 89, "desc": "Minty fresh cooler", "bestseller": true },
-        { "id": "green-apple-mojito", "name": "Green Apple Mojito", "price": 89, "desc": "Green apple flavored cooler" },
-        { "id": "blue-panther", "name": "Blue Panther", "price": 89, "desc": "Signature blue mocktail" }
+        { "id": "chai-plain", "name": "Plain Chai", "price": 20, "desc": "Classic tea", "img": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80" },
+        { "id": "chai-masala", "name": "Masala Chai", "price": 40, "desc": "Spiced tea", "img": "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?auto=format&fit=crop&w=800&q=80" },
+        { "id": "coffee-hot", "name": "Hot Coffee", "price": 50, "desc": "Brewed perfection", "img": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" },
+        { "id": "coffee-cold", "name": "Classic Cold Coffee", "price": 89, "desc": "Chilled delight", "img": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "shake-oreo", "name": "Oreo Shake", "price": 119, "desc": "Thick oreo blend", "img": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80" },
+        { "id": "shake-kitkat", "name": "Kit Kat Shake", "price": 119, "desc": "Chocolate crunch", "img": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80" },
+        { "id": "mojito-mint", "name": "Mint Mojito", "price": 79, "desc": "Refreshing cooler", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" },
+        { "id": "mojito-blue", "name": "Blue Panther", "price": 89, "desc": "Signature blue mocktail", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        { "id": "ice-vanilla", "name": "Vanilla Ice Cream", "price": 49, "desc": "Classic scoop", "img": "https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80" },
+        { "id": "ice-choco", "name": "Chocolate Ice Cream", "price": 79, "desc": "Rich chocolate", "img": "https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80" }
       ]
     }
   ]
