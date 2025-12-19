@@ -4,10 +4,11 @@ window.APP_CONFIG = {
   displayPhone: "+91 72061 23642",
   email: "hello@campuskajaika.com",
   hours: "10:00 AM – 10:00 PM",
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=",
-  instagramUrl: "https://www.instagram.com/campuskajaika/",
+  mapEmbedUrl: "https://maps.google.com/maps?q=29.1619724,75.7189315&output=embed",
+  instagramUrl: "https://www.instagram.com/campuskajaika",
   offers: [
-    { title: "Combo Saver", detail: "Buy 2, get 10% off", tag: "Today" },
-    { title: "Student Special", detail: "Free soft drink with any meal", tag: "Limited" }
+    { title: "Birthday Special", detail: "Buy 1 Get 1 on Medium Pizza (Mon-Sat)", tag: "Offer" },
+    { title: "Free Delivery", detail: "On orders above ₹300 (2-3 km)", tag: "Free Ship" },
+    { title: "Party Hall", detail: "Available for celebrations", tag: "New" }
   ]
 }
