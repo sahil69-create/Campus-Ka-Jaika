@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact • Campus Ka Jaika</title>
+  <meta name="description" content="Reach us via phone, WhatsApp, or email.">
+  <meta property="og:title" content="Contact • Campus Ka Jaika">
+  <meta property="og:description" content="Phone, WhatsApp, email, hours, and location map.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555992336-03a23c8bf5d8?q=80&w=1600&auto=format&fit=crop">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="scripts/config.js"></script>
+  <script src="scripts/cart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Campus Ka Jaika</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="btn primary small" id="navOrderBtn">Order Now</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="section-head">
+      <h1>Contact</h1>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-item">
+          <div class="label">Phone</div>
+          <div id="contactPhone">+91 00000 00000</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Email</div>
+          <div id="contactEmail">hello@campuskajaika.com</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Hours</div>
+          <div id="contactHours">10:00 AM – 10:00 PM</div>
+        </div>
+        <div class="actions">
+          <a id="contactWhatsApp" class="btn primary" href="#">Chat on WhatsApp</a>
+          <a class="btn outline" href="menu.html">View Menu</a>
+        </div>
+      </div>
+      <div class="map-card">
+        <iframe id="mapEmbed" src="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">Campus Ka Jaika</div>
+      <div class="footer-links">
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a id="footerWhatsApp" href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="sticky-order" id="stickyOrderBtn">Order • <span id="cartCount">0</span></button>
+
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-content">
+      <div class="cart-head">
+        <div>Your Order</div>
+        <button id="closeCart" class="icon-btn">✕</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-total">
+        <div>Total</div>
+        <div id="cartTotal">₹0</div>
+      </div>
+      <form id="checkoutForm" class="checkout-form">
+        <input id="custName" placeholder="Your name">
+        <input id="custPhone" placeholder="Phone">
+        <input id="custLocation" placeholder="Delivery location">
+        <button type="submit" class="btn primary full">Checkout with WhatsApp</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      var c=window.APP_CONFIG
+      document.getElementById("contactPhone").textContent=c.displayPhone
+      document.getElementById("contactEmail").textContent=c.email
+      document.getElementById("contactHours").textContent=c.hours
+      document.getElementById("contactWhatsApp").href="https://wa.me/"+c.phoneE164
+      document.getElementById("footerWhatsApp").href="https://wa.me/"+c.phoneE164
+      document.getElementById("mapEmbed").src=c.mapEmbedUrl
+    })
+  </script>
+</body>
+</html>
