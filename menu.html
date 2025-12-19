@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu • Campus Ka Jaika</title>
+  <meta name="description" content="Browse categories and add items to your cart.">
+  <meta property="og:title" content="Menu • Campus Ka Jaika">
+  <meta property="og:description" content="Warm, delicious meals. Add items to cart and checkout via WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="scripts/config.js"></script>
+  <script src="scripts/cart.js"></script>
+  <script src="scripts/menu.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Campus Ka Jaika</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="btn primary small" id="navOrderBtn">Order Now</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="section-head">
+      <h1>Menu</h1>
+    </div>
+    <div id="categoryTabs" class="tabs"></div>
+    <div id="menuGrid" class="cards"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">Campus Ka Jaika</div>
+      <div class="footer-links">
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a id="footerWhatsApp" href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="sticky-order" id="stickyOrderBtn">Order • <span id="cartCount">0</span></button>
+
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-content">
+      <div class="cart-head">
+        <div>Your Order</div>
+        <button id="closeCart" class="icon-btn">✕</button>
+      </div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-total">
+        <div>Total</div>
+        <div id="cartTotal">₹0</div>
+      </div>
+      <form id="checkoutForm" class="checkout-form">
+        <input id="custName" placeholder="Your name">
+        <input id="custPhone" placeholder="Phone">
+        <input id="custLocation" placeholder="Delivery location">
+        <button type="submit" class="btn primary full">Checkout with WhatsApp</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      var c=window.APP_CONFIG
+      var f=document.getElementById("footerWhatsApp")
+      if(f) f.href="https://wa.me/"+c.phoneE164
+    })
+  </script>
+</body>
+</html>
