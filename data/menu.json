@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": "chai",
+      "name": "Chai",
+      "items": [
+        { "id": "plain-chai", "name": "Plain Chai", "price": 20, "desc": "Simple hot tea" },
+        { "id": "dhoodh-patti", "name": "Dhoodh Patti", "price": 30, "desc": "Strong milk tea" },
+        { "id": "masala-chai", "name": "Masala Chai", "price": 40, "desc": "Tea with Indian spices", "bestseller": true },
+        { "id": "adrak-ilachi", "name": "Adrak Ilaichi Chai", "price": 45, "desc": "Ginger & cardamom flavored tea" },
+        { "id": "campus-special-chai", "name": "Campus Special Chai", "price": 50, "desc": "House special tea", "bestseller": true }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "items": [
+        { "id": "hot-coffee", "name": "Hot Coffee", "price": 50, "desc": "Classic hot coffee" },
+        { "id": "cold-coffee", "name": "Classic Cold Coffee", "price": 89, "desc": "Chilled coffee" },
+        { "id": "icecream-coffee", "name": "Cold Coffee with Ice Cream", "price": 119, "desc": "Cold coffee topped with ice cream", "bestseller": true },
+        { "id": "campus-hot-coffee", "name": "Campus Special Hot Coffee", "price": 120, "desc": "House special hot coffee" },
+        { "id": "campus-cold-coffee", "name": "Campus Special Cold Coffee", "price": 125, "desc": "House special cold coffee" }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "items": [
+        { "id": "veg-sandwich", "name": "Veg Sandwich", "price": 79, "desc": "Fresh veg sandwich" },
+        { "id": "paneer-sandwich", "name": "Tandoori Paneer Sandwich", "price": 99, "desc": "Paneer with tandoori flavor" },
+        { "id": "veg-momos", "name": "Veg Momos", "price": 79, "desc": "Steamed veg momos with dip", "bestseller": true },
+        { "id": "classic-fries", "name": "Classic Fries", "price": 79, "desc": "Crispy potato fries" },
+        { "id": "masala-maggie", "name": "Masala Maggie", "price": 59, "desc": "Classic masala noodles" }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "items": [
+        { "id": "corn-pizza", "name": "Corn Pizza", "price": 69, "desc": "Single veg corn pizza" },
+        { "id": "onion-pizza", "name": "Onion Pizza", "price": 69, "desc": "Single veg onion pizza" },
+        { "id": "paneer-pizza", "name": "Paneer Pizza", "price": 69, "desc": "Single veg paneer pizza", "bestseller": true },
+        { "id": "campus-special-pizza", "name": "Campus Special Pizza", "price": 170, "desc": "Loaded campus special pizza" }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks & Coolers",
+      "items": [
+        { "id": "shikanji", "name": "Shikanji", "price": 39, "desc": "Refreshing lemon drink" },
+        { "id": "mint-mojito", "name": "Mint Mojito", "price": 89, "desc": "Minty fresh cooler", "bestseller": true },
+        { "id": "green-apple-mojito", "name": "Green Apple Mojito", "price": 89, "desc": "Green apple flavored cooler" },
+        { "id": "blue-panther", "name": "Blue Panther", "price": 89, "desc": "Signature blue mocktail" }
+      ]
+    }
+  ]
+}
