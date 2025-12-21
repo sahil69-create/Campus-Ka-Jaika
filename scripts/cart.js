@@ -35,7 +35,33 @@
     }
     renderCartBadge() 
   }
-  function checkoutWhatsApp(){ var items=getCart(); if(!items.length) return; var name=document.getElementById("custName")?document.getElementById("custName").value:""; var phone=document.getElementById("custPhone")?document.getElementById("custPhone").value:""; var location=document.getElementById("custLocation")?document.getElementById("custLocation").value:""; var lines=items.map(function(i){ return i.name+" x"+i.qty+" = ₹"+(i.price*i.qty) }); lines.push("Total: ₹"+calcTotal()); if(name) lines.push("Name: "+name); if(phone) lines.push("Customer Phone: "+phone); if(location) lines.push("Location: "+location); var msg=encodeURIComponent(lines.join("\n")); var url="https://wa.me/"+window.APP_CONFIG.phoneE164+"?text="+msg; window.open(url, "_blank"); clearCart(); closeCart() }
+  function checkoutWhatsApp(){ 
+    var items=getCart(); 
+    if(!items.length) return; 
+    var name=document.getElementById("custName")?document.getElementById("custName").value:""; 
+    var phone=document.getElementById("custPhone")?document.getElementById("custPhone").value:""; 
+    var location=document.getElementById("custLocation")?document.getElementById("custLocation").value:""; 
+    
+    var lines = [];
+    lines.push("*New Order*");
+    lines.push("----------------");
+    items.forEach(function(i){
+      lines.push("*"+i.name+"*");
+      lines.push("`"+i.qty+" x ₹"+i.price+" = ₹"+(i.price*i.qty)+"`");
+    });
+    lines.push("----------------");
+    lines.push("*Total: ₹"+calcTotal()+"*");
+    
+    if(name) lines.push("Name: `"+name+"`");
+    if(phone) lines.push("Phone: `"+phone+"`");
+    if(location) lines.push("Location: `"+location+"`");
+    
+    var msg=encodeURIComponent(lines.join("\n")); 
+    var url="https://wa.me/"+window.APP_CONFIG.phoneE164+"?text="+msg; 
+    window.open(url, "_blank"); 
+    clearCart(); 
+    closeCart() 
+  }
   window.Cart={ addItem:addItem, setupCartEvents:setupCartEvents, renderCartBadge:renderCartBadge }
   document.addEventListener("DOMContentLoaded", setupCartEvents)
 })()
