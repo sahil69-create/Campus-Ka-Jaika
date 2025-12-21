@@ -1,5 +1,8 @@
 ;(function(){
-  function loadBaseReviews(){ return fetch("data/reviews.json").then(function(r){ return r.json() }) }
+  function loadBaseReviews(){ 
+    if(window.REVIEWS_DATA) return Promise.resolve(window.REVIEWS_DATA);
+    return fetch("data/reviews.json").then(function(r){ return r.json() }).catch(function(){return []})
+  }
   function getSaved(){ try{ return JSON.parse(localStorage.getItem("cka_reviews")||"[]") }catch(e){ return [] } }
   function saveReview(r){ var all=getSaved(); all.unshift(r); localStorage.setItem("cka_reviews", JSON.stringify(all)) }
   function render(list){ var wrap=document.getElementById("reviewsList"); if(!wrap) return; wrap.innerHTML=""; list.forEach(function(r){ var item=document.createElement("div"); item.className="review"; var name=document.createElement("div"); name.textContent=r.name; var stars=document.createElement("div"); stars.className="stars"; stars.textContent="★".repeat(r.rating)+"☆".repeat(5-r.rating); var comment=document.createElement("div"); comment.textContent=r.comment; wrap.appendChild(item); item.appendChild(name); item.appendChild(stars); item.appendChild(comment) }) }
