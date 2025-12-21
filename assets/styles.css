@@ -5,6 +5,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
 .header{position:sticky;top:0;background:var(--card);border-bottom:1px solid var(--border);z-index:50}
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{font-weight:700;color:var(--primary);text-decoration:none}
+.brand-logo{height:28px;width:28px;object-fit:cover;border-radius:6px;margin-right:8px;vertical-align:middle}
 .nav a{margin:0 8px;color:var(--muted);text-decoration:none}
 .nav a.active{color:var(--primary)}
 .btn{appearance:none;border:0;border-radius:10px;padding:12px 16px;background:var(--card);color:var(--text);cursor:pointer;transition:transform .05s ease}
@@ -21,7 +22,9 @@ input:focus,textarea:focus,select:focus{outline:none;border-color:var(--primary)
 .hero h1{font-size:32px;line-height:1.1;margin:0 0 8px}
 .hero p{color:var(--muted);margin:0 0 16px}
 .hero-actions{display:flex;gap:12px}
-.hero-image{width:40%;height:280px;object-fit:contain}
+.hero-gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;width:100%}
+.hero-gallery img{width:100%;height:140px;object-fit:cover;border-radius:12px;border:4px solid #fff;box-shadow:0 4px 12px rgba(0,0,0,0.15)}
+.hero-gallery img:first-child{grid-column:span 2;height:200px}
 .intro{padding:24px 0}
 .intro-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;margin-bottom:16px}
 .intro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
@@ -61,11 +64,16 @@ input:focus,textarea:focus,select:focus{outline:none;border-color:var(--primary)
 .map-card iframe{width:100%;height:280px;border:0}
 .footer{border-top:1px solid var(--border);background:var(--card);margin-top:24px}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.footer-brand{color:var(--muted)}
+.footer-brand a{color:var(--primary);text-decoration:none}
+.footer-brand a:hover{text-decoration:underline}
 .footer-links a{margin-left:12px;color:var(--muted);text-decoration:none}
 @media(min-width:768px){
 .hero{grid-template-columns:1.2fr .8fr}
 .hero h1{font-size:44px}
-.hero-image{height:360px;border-top-left-radius:20px;border-bottom-left-radius:20px}
+.hero-gallery{grid-template-columns:1.5fr 1fr;height:360px}
+.hero-gallery img{height:100%}
+.hero-gallery img:first-child{grid-column:auto;grid-row:span 2}
 .cards{grid-template-columns:repeat(3,1fr)}
 .offers{grid-template-columns:repeat(2,1fr)}
 .reviews-list{grid-template-columns:repeat(2,1fr)}
