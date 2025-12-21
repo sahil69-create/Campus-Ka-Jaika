@@ -1,0 +1,19 @@
+window.REVIEWS_DATA = [
+  { "name": "Aarav", "rating": 5, "comment": "Best rolls on campus. Super quick!" },
+  { "name": "Ishita", "rating": 4, "comment": "Paneer bowl is so good and filling." },
+  { "name": "Rahul", "rating": 5, "comment": "Affordable and tasty. Love the lemonade." },
+  { "name": "Sneha", "rating": 5, "comment": "The Cheese Grilled Sandwich is absolute heaven! Highly recommend." },
+  { "name": "Vikram", "rating": 5, "comment": "Best place for evening snacks. The Cold Coffee is thick and creamy." },
+  { "name": "Priya", "rating": 5, "comment": "Finally a good hygiene place near campus. Love the White Sauce Pasta." },
+  { "name": "Rohan", "rating": 5, "comment": "Pocket friendly prices for students. Peri Peri Fries are spicy and crispy." },
+  { "name": "Anjali", "rating": 4, "comment": "Good food but gets a bit crowded. Pizza Burger is unique and tasty." },
+  { "name": "Karan", "rating": 5, "comment": "The Tandoori Momos are the best I've had in Hisar." },
+  { "name": "Neha", "rating": 5, "comment": "Super fast delivery. Food was hot and fresh." },
+  { "name": "Amit", "rating": 5, "comment": "Great quantity in the combos. Couple Combo 1 is enough for two." },
+  { "name": "Sonia", "rating": 5, "comment": "Love the vibes! Perfect spot to chill with friends." },
+  { "name": "Manish", "rating": 4, "comment": "Tasty food. Garlic bread could be a bit more crispy though." },
+  { "name": "Divya", "rating": 5, "comment": "Campus Special Burger is massive! Totally worth the price." },
+  { "name": "Arjun", "rating": 5, "comment": "Their Mint Mojito is so refreshing in this weather." },
+  { "name": "Meera", "rating": 5, "comment": "Clean kitchen and polite staff. Will visit again." },
+  { "name": "Sahil", "rating": 5, "comment": "Double Cheese Margherita is loaded with cheese. Yum!" }
+];
