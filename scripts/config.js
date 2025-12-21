@@ -2,8 +2,8 @@ window.APP_CONFIG = {
   brand: "Campus Ka Jaika",
   phoneE164: "917206123642",
   displayPhone: "+91 72061 23642",
-  email: "hello@campuskajaika.com",
-  hours: "10:00 AM – 08:00 PM",
+  email: "campuskajaika@gmail.com",
+  hours: "09:00 AM – 08:00 PM",
   mapEmbedUrl: "https://maps.google.com/maps?q=29.1619724,75.7189315&output=embed",
   instagramUrl: "https://www.instagram.com/campuskajaika",
   offers: [
