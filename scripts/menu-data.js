@@ -33,9 +33,9 @@ window.MENU_DATA = {
         { "id": "piz-spice-m", "name": "Spice Lover (M)", "price": 310, "desc": "Medium - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=tiye6shf&dl=0" },
         { "id": "piz-spice-l", "name": "Spice Lover (L)", "price": 410, "desc": "Large - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=tiye6shf&dl=0" },
 
-        { "id": "piz-veg-del-s", "name": "Veg Delight (S)", "price": 160, "desc": "Small - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-veg-del-m", "name": "Veg Delight (M)", "price": 310, "desc": "Medium - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-veg-del-l", "name": "Veg Delight (L)", "price": 410, "desc": "Large - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-veg-del-s", "name": "Veg Delight (S)", "price": 160, "desc": "Small - Corn, Tomato, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=j9ddi4c1&dl=0" },
+        { "id": "piz-veg-del-m", "name": "Veg Delight (M)", "price": 310, "desc": "Medium - Corn, Tomato, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=j9ddi4c1&dl=0" },
+        { "id": "piz-veg-del-l", "name": "Veg Delight (L)", "price": 410, "desc": "Large - Corn, Tomato, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=j9ddi4c1&dl=0" },
 
         { "id": "piz-pan-spl-s", "name": "Paneer Special (S)", "price": 170, "desc": "Small - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
         { "id": "piz-pan-spl-m", "name": "Paneer Special (M)", "price": 320, "desc": "Medium - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
