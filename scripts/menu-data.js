@@ -5,7 +5,7 @@ window.MENU_DATA = {
       "name": "Combos",
       "items": [
         { "id": "combo-heart-pizza", "name": "Couple Combo 1", "price": 449, "desc": "Heart Shake + Pizza + Fries + 2 Cold Coffee", "img": "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=80", "bestseller": true },
-        { "id": "combo-pizza-burger", "name": "Couple Combo 2", "price": 349, "desc": "Pizza + Burger + Fries + 2 Small Cold Drinks", "img": "https://images.unsplash.com/photo-1561758033-d8f19662cb23?auto=format&fit=crop&w=800&q=80", "bestseller": true }
+        { "id": "combo-pizza-burger", "name": "Couple Combo 2", "price": 349, "desc": "Pizza + Burger + Fries + 2 Small Cold Drinks", "img": "https://www.dl.dropboxusercontent.com/scl/fi/a60c82om0ec8o5fjhlf0i/download.webp?rlkey=ecnni90c2500q57g0hgn4flfu&st=zx72xrtg&dl=0", "bestseller": true }
       ]
     },
     {
