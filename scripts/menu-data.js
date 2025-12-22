@@ -175,7 +175,7 @@ window.MENU_DATA = {
       "items": [
         { "id": "mojito-mint", "name": "Mint Mojito", "price": 79, "desc": "Fresh mint & lime", "img": "https://www.dl.dropboxusercontent.com/scl/fi/a60c82om0ec8o5fjhlf0i/download.webp?rlkey=ecnni90c2500q57g0hgn4flfu&st=6tt58fn4&dl=0" },
         { "id": "mojito-kiwi", "name": "Kiwi Mojito", "price": 99, "desc": "Kiwi Flavour Freshness", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=5a6w55ry&dl=0" },
-        { "id": "mojito-watermelon", "name": "Watermelon Mojito", "price": 99, "desc": "Fresh watermelon", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=sbxskxha&dl=0" },
+        { "id": "mojito-watermelon", "name": "Watermelon Mojito", "price": 99, "desc": "Fresh watermelon", "img": "https://dl.dropboxusercontent.com/scl/fi/a60c82om0ec8o5fjhlf0i/download.webp?rlkey=ecnni90c2500q57g0hgn4flfu&st=hn6jem1s" },
         { "id": "soda-lime", "name": "Fresh Lime Soda", "price": 69, "desc": "Sweet or Salted", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=6wy0m0ip&dl=0" }
       ]
     },
