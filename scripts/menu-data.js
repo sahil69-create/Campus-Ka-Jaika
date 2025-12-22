@@ -5,7 +5,7 @@ window.MENU_DATA = {
       "name": "Combos",
       "items": [
         { "id": "combo-heart-pizza", "name": "Couple Combo 1", "price": 449, "desc": "Heart Shake + Pizza + Fries + 2 Cold Coffee", "img": "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=80", "bestseller": true },
-        { "id": "combo-pizza-burger", "name": "Couple Combo 2", "price": 349, "desc": "Pizza + Burger + Fries + 2 Small Cold Drinks", "img": "https://www.dl.dropboxusercontent.com/scl/fi/a60c82om0ec8o5fjhlf0i/download.webp?rlkey=ecnni90c2500q57g0hgn4flfu&st=zx72xrtg&dl=0", "bestseller": true }
+        { "id": "combo-pizza-burger", "name": "Couple Combo 2", "price": 349, "desc": "Pizza + Burger + Fries + 2 Small Cold Drinks", "img": "https://images.unsplash.com/photo-1561758033-d8f19662cb23?auto=format&fit=crop&w=800&q=80", "bestseller": true }
       ]
     },
     {
@@ -29,13 +29,13 @@ window.MENU_DATA = {
       "id": "pizza-veg-treat",
       "name": "Veg Treat Pizza",
       "items": [
-        { "id": "piz-spice-s", "name": "Spice Lover (S)", "price": 160, "desc": "Small - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=tiye6shf&dl=0" },
-        { "id": "piz-spice-m", "name": "Spice Lover (M)", "price": 310, "desc": "Medium - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=tiye6shf&dl=0" },
-        { "id": "piz-spice-l", "name": "Spice Lover (L)", "price": 410, "desc": "Large - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=tiye6shf&dl=0" },
+        { "id": "piz-spice-s", "name": "Spice Lover (S)", "price": 160, "desc": "Small - Red Paprika, Spicy Herbs", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-spice-m", "name": "Spice Lover (M)", "price": 310, "desc": "Medium - Red Paprika, Spicy Herbs", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-spice-l", "name": "Spice Lover (L)", "price": 410, "desc": "Large - Red Paprika, Spicy Herbs", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
 
-        { "id": "piz-veg-del-s", "name": "Veg Delight (S)", "price": 160, "desc": "Small - Corn, Tomato, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=j9ddi4c1&dl=0" },
-        { "id": "piz-veg-del-m", "name": "Veg Delight (M)", "price": 310, "desc": "Medium - Corn, Tomato, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=j9ddi4c1&dl=0" },
-        { "id": "piz-veg-del-l", "name": "Veg Delight (L)", "price": 410, "desc": "Large - Corn, Tomato, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=j9ddi4c1&dl=0" },
+        { "id": "piz-veg-del-s", "name": "Veg Delight (S)", "price": 160, "desc": "Small - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-veg-del-m", "name": "Veg Delight (M)", "price": 310, "desc": "Medium - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-veg-del-l", "name": "Veg Delight (L)", "price": 410, "desc": "Large - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
 
         { "id": "piz-pan-spl-s", "name": "Paneer Special (S)", "price": 170, "desc": "Small - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
         { "id": "piz-pan-spl-m", "name": "Paneer Special (M)", "price": 320, "desc": "Medium - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
@@ -53,9 +53,9 @@ window.MENU_DATA = {
         { "id": "piz-corn-s", "name": "Corn Pizza (S)", "price": 69, "desc": "Small", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
         { "id": "piz-corn-m", "name": "Corn Pizza (M)", "price": 169, "desc": "Medium", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
         { "id": "piz-corn-l", "name": "Corn Pizza (L)", "price": 299, "desc": "Large", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-onion-s", "name": "Onion Pizza (S)", "price": 69, "desc": "Small", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=duavn4d8&dl=0" },
-        { "id": "piz-onion-m", "name": "Onion Pizza (M)", "price": 169, "desc": "Medium", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=duavn4d8&dl=0" },
-        { "id": "piz-onion-l", "name": "Onion Pizza (L)", "price": 299, "desc": "Large", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=duavn4d8&dl=0" }
+        { "id": "piz-onion-s", "name": "Onion Pizza (S)", "price": 69, "desc": "Small", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-onion-m", "name": "Onion Pizza (M)", "price": 169, "desc": "Medium", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-onion-l", "name": "Onion Pizza (L)", "price": 299, "desc": "Large", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" }
       ]
     },
     {
@@ -173,10 +173,10 @@ window.MENU_DATA = {
       "id": "coolers",
       "name": "Coolers",
       "items": [
-        { "id": "mojito-mint", "name": "Mint Mojito", "price": 79, "desc": "Fresh mint & lime", "img": "https://www.dl.dropboxusercontent.com/scl/fi/a60c82om0ec8o5fjhlf0i/download.webp?rlkey=ecnni90c2500q57g0hgn4flfu&st=6tt58fn4&dl=0" },
-        { "id": "mojito-kiwi", "name": "Kiwi Mojito", "price": 99, "desc": "Kiwi Flavour Freshness", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=5a6w55ry&dl=0" },
-        { "id": "mojito-watermelon", "name": "Watermelon Mojito", "price": 99, "desc": "Fresh watermelon", "img": "s" },
-        { "id": "soda-lime", "name": "Fresh Lime Soda", "price": 69, "desc": "Sweet or Salted", "img": "https://www.dl.dropboxusercontent.com/scl/fi/g8xg4m65n5mud410sojfq/OIP.webp?rlkey=3omtlvmpcwrj0iy8wndpytr6q&st=6wy0m0ip&dl=0" }
+        { "id": "mojito-mint", "name": "Mint Mojito", "price": 79, "desc": "Fresh mint & lime", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" },
+        { "id": "mojito-blue", "name": "Blue Lagoon", "price": 99, "desc": "Tropical blue", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" },
+        { "id": "mojito-watermelon", "name": "Watermelon Mojito", "price": 99, "desc": "Fresh watermelon", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" },
+        { "id": "soda-lime", "name": "Fresh Lime Soda", "price": 69, "desc": "Sweet or Salted", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" }
       ]
     },
     {
