@@ -41,6 +41,7 @@
     var name=document.getElementById("custName")?document.getElementById("custName").value:""; 
     var phone=document.getElementById("custPhone")?document.getElementById("custPhone").value:""; 
     var location=document.getElementById("custLocation")?document.getElementById("custLocation").value:""; 
+
     
     var lines = [];
     lines.push("*New Order*");
