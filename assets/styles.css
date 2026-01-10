@@ -89,3 +89,4 @@ html.theme-dark{--bg:#101113;--text:#f4f4f5;--muted:#c2b7b3;--primary:#ff8a3d;--
 .intro-grid{grid-template-columns:repeat(3,1fr)}
 .contact-grid{grid-template-columns:1.2fr .8fr}
 }
+
