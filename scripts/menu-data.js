@@ -16,34 +16,34 @@ window.MENU_DATA = {
         { "id": "piz-dbl-marg-m", "name": "Double Cheese Margherita (M)", "price": 300, "desc": "Medium - Loaded cheese", "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80", "bestseller": true },
         { "id": "piz-dbl-marg-l", "name": "Double Cheese Margherita (L)", "price": 400, "desc": "Large - Loaded cheese", "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80" },
         
-        { "id": "piz-veg-lov-s", "name": "Veggie Lover (S)", "price": 150, "desc": "Small - Onion, Capsicum", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-veg-lov-m", "name": "Veggie Lover (M)", "price": 300, "desc": "Medium - Onion, Capsicum", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-veg-lov-l", "name": "Veggie Lover (L)", "price": 400, "desc": "Large - Onion, Capsicum", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-veg-lov-s", "name": "Veggie Lover (S)", "price": 150, "desc": "Small - Onion, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/m67z9x582uuhk8p60uzj6/images-36.jpeg?dl=0" },
+        { "id": "piz-veg-lov-m", "name": "Veggie Lover (M)", "price": 300, "desc": "Medium - Onion, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/m67z9x582uuhk8p60uzj6/images-36.jpeg?dl=0" },
+        { "id": "piz-veg-lov-l", "name": "Veggie Lover (L)", "price": 400, "desc": "Large - Onion, Capsicum", "img": "https://www.dl.dropboxusercontent.com/scl/fi/m67z9x582uuhk8p60uzj6/images-36.jpeg?dl=0" },
 
-        { "id": "piz-farm-s", "name": "Farm House (S)", "price": 150, "desc": "Small - Onion, Capsicum, Tomato", "img": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-farm-m", "name": "Farm House (M)", "price": 300, "desc": "Medium - Onion, Capsicum, Tomato", "img": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-farm-l", "name": "Farm House (L)", "price": 400, "desc": "Large - Onion, Capsicum, Tomato", "img": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" }
+        { "id": "piz-farm-s", "name": "Farm House (S)", "price": 150, "desc": "Small - Onion, Capsicum, Tomato", "img": "https://www.dl.dropboxusercontent.com/scl/fi/x1j4gtxrvltx58k1xtch8/images-38.jpeg?dl=0" },
+        { "id": "piz-farm-m", "name": "Farm House (M)", "price": 300, "desc": "Medium - Onion, Capsicum, Tomato", "img": "https://www.dl.dropboxusercontent.com/scl/fi/x1j4gtxrvltx58k1xtch8/images-38.jpeg?dl=0" },
+        { "id": "piz-farm-l", "name": "Farm House (L)", "price": 400, "desc": "Large - Onion, Capsicum, Tomato", "img": "https://www.dl.dropboxusercontent.com/scl/fi/x1j4gtxrvltx58k1xtch8/images-38.jpeg?dl=0" }
       ]
     },
     {
       "id": "pizza-veg-treat",
       "name": "Veg Treat Pizza",
       "items": [
-        { "id": "piz-spice-s", "name": "Spice Lover (S)", "price": 160, "desc": "Small - Red Paprika, Spicy Herbs", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-spice-m", "name": "Spice Lover (M)", "price": 310, "desc": "Medium - Red Paprika, Spicy Herbs", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-spice-l", "name": "Spice Lover (L)", "price": 410, "desc": "Large - Red Paprika, Spicy Herbs", "img": "https://images.unsplash.com/photo-1593560708920-6389288e671b?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-spice-s", "name": "Spice Lover (S)", "price": 160, "desc": "Small - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/esz7m0jx65ga86f2ul737/top-view-pizza-with-olives-tomatoes-bell-pepper-rolling-pin-with-flour-683x1024.jpg?dl=0" },
+        { "id": "piz-spice-m", "name": "Spice Lover (M)", "price": 310, "desc": "Medium - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/esz7m0jx65ga86f2ul737/top-view-pizza-with-olives-tomatoes-bell-pepper-rolling-pin-with-flour-683x1024.jpg?dl=0" },
+        { "id": "piz-spice-l", "name": "Spice Lover (L)", "price": 410, "desc": "Large - Red Paprika, Spicy Herbs", "img": "https://www.dl.dropboxusercontent.com/scl/fi/esz7m0jx65ga86f2ul737/top-view-pizza-with-olives-tomatoes-bell-pepper-rolling-pin-with-flour-683x1024.jpg?dl=0" },
 
         { "id": "piz-veg-del-s", "name": "Veg Delight (S)", "price": 160, "desc": "Small - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
         { "id": "piz-veg-del-m", "name": "Veg Delight (M)", "price": 310, "desc": "Medium - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
         { "id": "piz-veg-del-l", "name": "Veg Delight (L)", "price": 410, "desc": "Large - Corn, Tomato, Capsicum", "img": "https://images.unsplash.com/photo-1571407970349-bc16b6891ba6?auto=format&fit=crop&w=800&q=80" },
 
-        { "id": "piz-pan-spl-s", "name": "Paneer Special (S)", "price": 170, "desc": "Small - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-pan-spl-m", "name": "Paneer Special (M)", "price": 320, "desc": "Medium - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-pan-spl-l", "name": "Paneer Special (L)", "price": 430, "desc": "Large - Spiced Paneer, Onion", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" },
+        { "id": "piz-pan-spl-s", "name": "Paneer Special (S)", "price": 170, "desc": "Small - Spiced Paneer, Onion", "img": "https://www.dl.dropboxusercontent.com/scl/fi/2kk1nwgf5rubnryndfmyx/010b29da595df93d828ca0dca935821a.webp?dl=0" },
+        { "id": "piz-pan-spl-m", "name": "Paneer Special (M)", "price": 320, "desc": "Medium - Spiced Paneer, Onion", "img": "https://www.dl.dropboxusercontent.com/scl/fi/2kk1nwgf5rubnryndfmyx/010b29da595df93d828ca0dca935821a.webp?dl=0" },
+        { "id": "piz-pan-spl-l", "name": "Paneer Special (L)", "price": 430, "desc": "Large - Spiced Paneer, Onion", "img": "https://www.dl.dropboxusercontent.com/scl/fi/2kk1nwgf5rubnryndfmyx/010b29da595df93d828ca0dca935821a.webp?dl=0" },
 
-        { "id": "piz-campus-s", "name": "Campus Special (S)", "price": 180, "desc": "Small - Fully Loaded Chef Special", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-campus-m", "name": "Campus Special (M)", "price": 340, "desc": "Medium - Fully Loaded Chef Special", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" },
-        { "id": "piz-campus-l", "name": "Campus Special (L)", "price": 460, "desc": "Large - Fully Loaded Chef Special", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" }
+        { "id": "piz-campus-s", "name": "Campus Special (S)", "price": 180, "desc": "Small - Fully Loaded Chef Special", "img": "https://www.dl.dropboxusercontent.com/scl/fi/cgtqleg8o8qm8h8kf003k/istockphoto-111963385-612x612.jpg?dl=0" },
+        { "id": "piz-campus-m", "name": "Campus Special (M)", "price": 340, "desc": "Medium - Fully Loaded Chef Special", "img": "https://www.dl.dropboxusercontent.com/scl/fi/cgtqleg8o8qm8h8kf003k/istockphoto-111963385-612x612.jpg?dl=0" },
+        { "id": "piz-campus-l", "name": "Campus Special (L)", "price": 460, "desc": "Large - Fully Loaded Chef Special", "img": "https://www.dl.dropboxusercontent.com/scl/fi/cgtqleg8o8qm8h8kf003k/istockphoto-111963385-612x612.jpg?dl=0" }
       ]
     },
     {
@@ -154,18 +154,18 @@ window.MENU_DATA = {
       "id": "coffee",
       "name": "Coffee",
       "items": [
-        { "id": "coffee-cold", "name": "Classic Cold Coffee", "price": 89, "desc": "Thick & Creamy", "img": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80", "bestseller": true },
+        { "id": "coffee-cold", "name": "Classic Cold Coffee", "price": 89, "desc": "Thick & Creamy", "img": "https://www.dl.dropboxusercontent.com/scl/fi/oez4juyzg96clvdavw78s/1fa4159721adedceef3aadb22f2b6283.webp?dl=0", "bestseller": true },
         { "id": "coffee-hazelnut", "name": "Hazelnut Cold Coffee", "price": 109, "desc": "Nutty flavor", "img": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" },
         { "id": "coffee-chocolate", "name": "Chocolate Cold Coffee", "price": 119, "desc": "Rich chocolate", "img": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80" },
-        { "id": "coffee-hot", "name": "Hot Coffee", "price": 50, "desc": "Classic brew", "img": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80" }
+        { "id": "coffee-hot", "name": "Hot Coffee", "price": 50, "desc": "Classic brew", "img": "https://www.dl.dropboxusercontent.com/scl/fi/az077uox9hhsfxc51rfli/classic-coffee-cup-saucer-filled-with-hot-coffee_795881-9950.jpg?dl=0" }
       ]
     },
     {
       "id": "cold-drinks",
       "name": "Cold Drinks",
       "items": [
-        { "id": "drink-coke-m", "name": "Coke (250ml)", "price": 40, "desc": "Chilled", "img": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80" },
-        { "id": "drink-sprite-m", "name": "Sprite (250ml)", "price": 40, "desc": "Chilled", "img": "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?auto=format&fit=crop&w=800&q=80" },
+        { "id": "drink-coke-m", "name": "Coke (250ml)", "price": 40, "desc": "Chilled", "img": "https://www.dl.dropboxusercontent.com/scl/fi/48kmso8pyna8ggzkqyhfj/pexels-photo-8880727.jpeg?dl=0" },
+        { "id": "drink-sprite-m", "name": "Sprite (250ml)", "price": 40, "desc": "Chilled", "img": "https://www.dl.dropboxusercontent.com/scl/fi/uzhxjcltwpnb9sn03mkd0/148-1481719_sprite-in-a-glass.png?dl=0" },
         { "id": "drink-thumbs-m", "name": "Thums Up (250ml)", "price": 40, "desc": "Chilled", "img": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80" }
       ]
     },
