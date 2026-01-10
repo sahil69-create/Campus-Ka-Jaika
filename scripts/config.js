@@ -12,3 +12,24 @@ window.APP_CONFIG = {
     { title: "Party Hall", detail: "Available for celebrations", tag: "New" }
   ]
 }
+;(function(){
+  var KEY="cka_theme"
+  function applyTheme(t){
+    var d=document.documentElement
+    if(t==="dark"){ d.classList.add("theme-dark") } else { d.classList.remove("theme-dark") }
+    var b=document.getElementById("themeToggle")
+    if(b){ b.textContent=t==="dark"?"Light":"Dark" }
+  }
+  function current(){ return localStorage.getItem(KEY)||"light" }
+  document.addEventListener("DOMContentLoaded", function(){
+    applyTheme(current())
+    var b=document.getElementById("themeToggle")
+    if(b){ 
+      b.onclick=function(){ 
+        var next=current()==="dark"?"light":"dark"
+        localStorage.setItem(KEY, next)
+        applyTheme(next)
+      } 
+    }
+  })
+})()
