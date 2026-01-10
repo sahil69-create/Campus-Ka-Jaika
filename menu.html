@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="scripts/config.js"></script>
-  <script src="scripts/menu-data.js"></script>
+  <script src="scripts/menu-data-v2.js"></script>
   <script src="scripts/cart.js"></script>
   <script src="scripts/menu.js"></script>
 </head>
@@ -28,7 +28,10 @@
         <a href="menu.html" class="active">Menu</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <button class="btn primary small" id="navOrderBtn">Order Now</button>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="btn outline small" id="themeToggle">Dark</button>
+        <button class="btn primary small" id="navOrderBtn">Order Now</button>
+      </div>
     </div>
   </header>
 
