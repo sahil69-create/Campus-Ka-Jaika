@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" href="https://www.dl.dropboxusercontent.com/scl/fi/gwhkvgcf2occsi8z9dokf/WhatsApp-Image-2025-12-20-at-10.56.49-PM.jpeg?rlkey=kdm98ltbn6hehjvurdrufw5tr&st=b44v4pa2&dl=0" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="scripts/config.js"></script>
   <script src="scripts/menu-data-v2.js"></script>
@@ -177,5 +178,61 @@
       </form>
     </div>
   </div>
+<a href="https://t.me/dashboard_friend_bot" class="telegram-float" target="_blank">
+    <i class="fa-brands fa-telegram telegram-icon"></i>
+    <span>Chat with Chef 👨‍🍳</span>
+</a>
+
+<style>
+/* Button ki Styling */
+.telegram-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #24A1DE; /* Telegram Blue */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Taaki ye sabse upar dikhe */
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.telegram-float:hover {
+    background-color: #1e88bb;
+    transform: translateY(-5px);
+    color: white;
+}
+
+.telegram-icon {
+    font-size: 24px;
+}
+
+/* Mobile par sirf icon dikhane ke liye (Optional) */
+@media (max-width: 600px) {
+    .telegram-float span {
+        display: none;
+    }
+    .telegram-float {
+        padding: 15px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
+</style>
+
+
+
+
+
+
+  
 </body>
 </html>
